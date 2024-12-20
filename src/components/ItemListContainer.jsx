@@ -4,9 +4,9 @@ import { useParams } from 'react-router-dom';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 
 const fakeProducts = [
-  { id: '1', title: 'Product 1', category: 'fire', description: 'Description 1', price: 100 },
-  { id: '2', title: 'Product 2', category: 'water', description: 'Description 2', price: 200 },
-  { id: '3', title: 'Product 3', category: 'fire', description: 'Description 3', price: 300 },
+  { id: '1', title: 'Charmander', category: 'fire', description: 'Description 1', price: 100 },
+  { id: '2', title: 'Squirtle', category: 'water', description: 'Description 2', price: 200 },
+  { id: '3', title: 'Charizard', category: 'fire', description: 'Description 3', price: 300 },
 ];
 
 const ItemListContainer = () => {
